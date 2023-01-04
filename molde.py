@@ -1,4 +1,4 @@
-molde_placar = '''
+molde_game = '''
 PLACAR FINAL
 
 Game: {}
@@ -28,4 +28,15 @@ Chamada: {}
 Game: {}
 Descontos: {}
 Total: {}
+'''
+
+molde_raio = '''
+Aplicador(a): {}
+Data: {}
+N° de Raios: {}
+
+Gryff: {}
+Huff: {}
+Raven: {}
+Sly: {}
 '''
