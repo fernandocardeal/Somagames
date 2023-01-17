@@ -36,6 +36,7 @@ def Game():
       nome_game = st.text_input("Informe o nome do game")
    with col2:
       data_game = st.date_input("Informe a data de aplicação")
+      data_game = "/".join(str(data_game).split("-")[::-1])
    st.subheader("Placar")
    #GRYFF
    st.markdown("### Gryff")
@@ -87,9 +88,10 @@ def Raio():
    aplicador = st.text_input("Nome do aplicador", placeholder="O Jogo - você perdeu")
    col1, col2 = st.columns(2)
    with col1:
-       quant_raios = st.number_input("Informe a quantidade de raios aplicados", min_value=1, step=1)
+      quant_raios = st.number_input("Informe a quantidade de raios aplicados", min_value=1, step=1)
    with col2:
-       data_game = st.date_input("Informe a data de aplicação")
+      data_game = st.date_input("Informe a data de aplicação")
+      data_game = "/".join(str(data_game).split("-")[::-1])
    st.subheader("Medalhas")
 
    #ÁREA DA GRYFF

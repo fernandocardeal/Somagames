@@ -1,42 +1,43 @@
 molde_game = '''
-PLACAR FINAL
+🎪 *_PLACAR FINAL_* 🎪
 
-Game: {}
-Aplicador(a): {}
-Data: {}
+🎰 _*Game:* {}_
+🤹🏾‍♀️ _*Aplicador(a):* {}_
+📆 _*Data:* {}_
 
-GRYFF
-Chamada: {}
-Game: {}
-Descontos: {}
-Total: {}
+❤️ _*GRYFF*_ 🦁
+♟️ _*Chamada:* {}_
+🎯 _*Game:* {}_
+❌ _*Descontos:* {}_
+🏆 _*Total:* {}_
 
-HUFF
-Chamada: {}
-Game: {}
-Descontos: {}
-Total: {}
+💛 _*HUFF*_ 🦡
+♟️ _*Chamada:* {}_
+🎯 _*Game:* {}_
+❌ _*Descontos:* {}_
+🏆 _*Total:* {}_
 
-RAVEN
-Chamada: {}
-Game: {}
-Descontos: {}
-Total: {}
 
-SLY
-Chamada: {}
-Game: {}
-Descontos: {}
-Total: {}
+💙 _*RAVEN*_ 🦅
+♟️ _*Chamada:* {}_
+🎯 _*Game:* {}_
+❌ _*Descontos:* {}_
+🏆 _*Total:* {}_
+
+💚 _*SLY*_ 🐍
+♟️ _*Chamada:* {}_
+🎯 _*Game:* {}_
+❌ _*Descontos:* {}_
+🏆 _*Total:* {}_
 '''
 
 molde_raio = '''
-Aplicador(a): {}
-Data: {}
-N° de Raios: {}
+🤹🏾‍♀️ _*Aplicador(a):* {}_
+_📆 *Data:* {}_
+⚡ _*N° de Raios:* {}_
 
-Gryff: {}
-Huff: {}
-Raven: {}
-Sly: {}
+🦁 _*Gryff:* {}_
+🦡 _*Huff:* {}_
+🦅 _*Raven:* {}_
+🐍 _*Sly:* {}_
 '''
