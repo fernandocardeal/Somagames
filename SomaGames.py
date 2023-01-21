@@ -137,13 +137,13 @@ def Raio():
    st.markdown("### Sly")
    s1, s2, s3, s4 = st.columns(4)
    with s1:
-      sly_1 = st.number_input("Sly - Primeiro Lugar", 0, 10, step = 1)
+      sly_1 = st.number_input("Sly - Primeiro Lugar", 0, step = 1)
    with s2:
-      sly_2 = st.number_input("Sly - Segundo Lugar", 0, 10, step = 1)
+      sly_2 = st.number_input("Sly - Segundo Lugar", 0, step = 1)
    with s3:
-      sly_3 = st.number_input("Sly - Terceiro Lugar", 0, 10, step = 1)
+      sly_3 = st.number_input("Sly - Terceiro Lugar", 0, step = 1)
    with s4:
-      sly_4 = st.number_input("Sly - Quarto Lugar", 0, 10, step = 1)
+      sly_4 = st.number_input("Sly - Quarto Lugar", 0, step = 1)
    sly_add = st.text_input("Sly adicionais", help="Os valores adicionais são para os raios que valem mais que o normal", value="0")
 
    if st.button("Somar"):
