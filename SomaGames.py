@@ -98,39 +98,39 @@ def Raio():
    st.markdown("### Gryff")
    g1, g2, g3, g4 = st.columns(4)
    with g1:
-      gryff_1 = st.number_input("Gryff - Primeiro Lugar", 0, 10, step = 1)
+      gryff_1 = st.number_input("Gryff - Primeiro Lugar", 0,  step = 1)
    with g2:
-      gryff_2 = st.number_input("Gryff - Segundo Lugar", 0, 10, step = 1)
+      gryff_2 = st.number_input("Gryff - Segundo Lugar", 0,  step = 1)
    with g3:
-      gryff_3 = st.number_input("Gryff - Terceiro Lugar", 0, 10, step = 1)
+      gryff_3 = st.number_input("Gryff - Terceiro Lugar", 0,  step = 1)
    with g4:
-      gryff_4 = st.number_input("Gryff - Quarto Lugar", 0, 10, step = 1)
+      gryff_4 = st.number_input("Gryff - Quarto Lugar", 0,  step = 1)
    gryff_add = st.text_input("Gryff adicionais", help="Os valores adicionais são para os raios que valem mais que o normal", value="0")
 
    #ÁREA DA HUFF
    st.markdown("### Huff")
    h1, h2, h3, h4 = st.columns(4)
    with h1:
-      huff_1 = st.number_input("Huff - Primeiro Lugar", 0, 10, step = 1)
+      huff_1 = st.number_input("Huff - Primeiro Lugar", 0,  step = 1)
    with h2:
-      huff_2 = st.number_input("Huff - Segundo Lugar", 0, 10, step = 1)
+      huff_2 = st.number_input("Huff - Segundo Lugar", 0,  step = 1)
    with h3:
-      huff_3 = st.number_input("Huff - Terceiro Lugar", 0, 10, step = 1)
+      huff_3 = st.number_input("Huff - Terceiro Lugar", 0,  step = 1)
    with h4:
-      huff_4 = st.number_input("Huff - Quarto Lugar", 0, 10, step = 1)
+      huff_4 = st.number_input("Huff - Quarto Lugar", 0,  step = 1)
    huff_add = st.text_input("Huff adicionais", help="Os valores adicionais são para os raios que valem mais que o normal", value="0")
 
    #ÁREA DA RAVEN
    st.markdown("### Raven")
    r1, r2, r3, r4 = st.columns(4)
    with r1:
-      raven_1 = st.number_input("Raven - Primeiro Lugar", 0, 10, step = 1)
+      raven_1 = st.number_input("Raven - Primeiro Lugar", 0,  step = 1)
    with r2:
-      raven_2 = st.number_input("Raven - Segundo Lugar", 0, 10, step = 1)
+      raven_2 = st.number_input("Raven - Segundo Lugar", 0,  step = 1)
    with r3:
-      raven_3 = st.number_input("Raven - Terceiro Lugar", 0, 10, step = 1)
+      raven_3 = st.number_input("Raven - Terceiro Lugar", 0,  step = 1)
    with r4:
-      raven_4 = st.number_input("Raven - Quarto Lugar", 0, 10, step = 1)
+      raven_4 = st.number_input("Raven - Quarto Lugar", 0,  step = 1)
    raven_add = st.text_input("Raven adicionais", help="Os valores adicionais são para os raios que valem mais que o normal", value="0")
 
    #ÁREA DA SLY
